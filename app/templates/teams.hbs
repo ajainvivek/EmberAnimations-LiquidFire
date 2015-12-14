@@ -1,0 +1,10 @@
+
+<h1>Teams</h1>
+<div class="teams">
+  {{#each teams as |team|}}
+      <div class="team" {{action 'goToPlayers' team}}>
+        <img src="{{team.crestUrl}}" alt="" height="100" width="100" data-logo-code="{{team.code}}"/>
+        <h3>{{team.name}}</h3>
+      </div>
+  {{/each}}
+</div>

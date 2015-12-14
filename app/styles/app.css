@@ -1,0 +1,106 @@
+html, body {
+  background: #E1E6EA;
+}
+
+h1 {
+  color: #8c96a0;
+  text-align: center;
+}
+
+.teams {
+  margin: 20px auto;
+  display: block;
+  width: 1100px;
+  margin: 0px auto;
+}
+
+.team {
+  width: 187px;
+  height: 132px;
+  padding: 20px;
+  background: #fff;
+  display: block;
+  margin-bottom: 2px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+  cursor: pointer;
+  margin: 20px;
+  float: left;
+  text-align: center;
+}
+
+.team:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.team h3 {
+  font-size: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.team img {
+  margin: 0px auto;
+  display: block;
+}
+
+.club-logo {
+  margin: 0px auto;
+  display: block;
+}
+
+.players {
+  margin: 20px auto;
+  display: block;
+  width: 1100px;
+  margin: 0px auto;
+}
+
+.player {
+  background: #fff;
+  border-bottom: 1px solid #e1e6ea;
+  padding: 10px;
+  height: 100px;
+  width: 100%;
+}
+
+.player .left {
+  float: left;
+}
+
+.player .right {
+  float: right;
+  margin-right: 30px;
+}
+
+.player .form-group {
+  padding: 5px;
+}
+
+.player .header {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.player .title {
+  font-size: 20px;
+  font-weight: 100;
+  color: #8A8282;
+}
+
+.jersey img {
+  margin-top: 20px
+}
+
+.jersey .jersey-no {
+  font-size: 24px;
+  color: #5EB95E;
+  position: relative;
+  top: -50px;
+  left: 21px;
+  font-weight: bold;
+  width: 22px;
+  text-align: center;
+}

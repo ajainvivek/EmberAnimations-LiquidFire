@@ -1,0 +1,33 @@
+<h1>{{team.name}}</h1>
+<img src="{{team.crestUrl}}" alt="" height="100" width="100" class="club-logo" data-logo-code="{{team.code}}"/>
+
+<h1>Players</h1>
+
+<div class="players">
+  {{#liquid-with players as |currentData|}}
+    {{#each currentData as |player|}}
+      <div class="player">
+        <div class="left">
+          <div class="form-group">
+            <span class="header">Name: </span>
+            <span class="title">{{player.name}}</span>
+          </div>
+          <div class="form-group">
+            <span class="header">Position: </span>
+            <span class="title">{{player.position}}</span>
+          </div>
+          <div class="form-group">
+            <span class="header">Nationality: </span>
+            <span class="title">{{player.nationality}}</span>
+          </div>
+        </div>
+        <div class="right">
+          <div class="jersey">
+            <img src="images/ic_team_shirt.png" alt="" height="64" width="64"/>
+            <div class="jersey-no">{{player.jerseyNumber}}</div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  {{/liquid-with}}
+</div>
